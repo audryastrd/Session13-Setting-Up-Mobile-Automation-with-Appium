@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx wdio run wdio.conf.js",
-     "allure:generate": "allure generate allure-results --clean",
+    "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open allure-report",
     "allure": "allure generate allure-results --clean && allure open allure-report"
   },

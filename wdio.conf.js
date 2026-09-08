@@ -5,7 +5,7 @@ exports.config = {
     port: 4723,
     path: '/',
 
-    specs: ['./tests/**/*.js'],
+    specs: ['./test/**/*.js'],
 
     maxInstances: 1,
 
@@ -13,8 +13,8 @@ exports.config = {
         platformName: 'Android',
         'appium:automationName': 'UiAutomator2',
         'appium:deviceName': 'Android Emulator',
-        'appium:appPackage': 'com.saucelabs.mydemoapp.android',
-        'appium:appActivity': 'com.saucelabs.mydemoapp.android/.view.activities.SplashActivity',
+        'appium:appPackage': 'com.example.belajar_bareng',
+        'appium:appActivity': 'com.example.belajar_bareng/com.example.belajar_bareng.MainActivity',
         'appium:noReset': true,
     }],
 
